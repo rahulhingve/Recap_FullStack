@@ -95,7 +95,7 @@ root/
 ## **How to Use This Repository**
 1. Clone this repository:
    ```bash
-   git clone https://github.com/rahulhingve/fullstack-interview-prep.git](https://github.com/rahulhingve/Recap_FullStack.git
+   git clone https://github.com/rahulhingve/Recap_FullStack.git
    ```
 2. Navigate through different folders for:
    - Theory: Read through questions and answers in `questions/`.
