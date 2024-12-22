@@ -10,7 +10,6 @@
 - [Coding Challenges](#coding-challenges)
 - [Resources](#resources)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 This repository contains a comprehensive list of JavaScript interview questions categorized by difficulty, along with valuable resources for preparation. Whether you're a beginner or an experienced developer, this guide will help you enhance your knowledge and skills.
