@@ -1,6 +1,6 @@
 # JavaScript Interview Questions
 
-![JavaScript Logo]https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png)
+![JavaScript Logo](https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png)
 
 ## Table of Contents
 - [Introduction](#introduction)
