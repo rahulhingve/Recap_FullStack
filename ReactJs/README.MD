@@ -51,6 +51,7 @@ This repository contains a comprehensive list of React.js interview questions ca
 5. Create a counter component that increments or decrements based on user input.
 
 ## Resources
+- [Github repo: Top 500+ ReactJS Interview Questions](https://github.com/sudheerj/reactjs-interview-questions)
 - [Simplilearn: Top 45+ ReactJS Interview Questions](https://www.simplilearn.com/tutorials/reactjs-tutorial/reactjs-interview-questions)
 - [GeeksforGeeks: Top 50+ React Interview Questions](https://www.geeksforgeeks.org/react-interview-questions/)
 - [Edureka: Top 100+ React Interview Questions](https://www.edureka.co/blog/interview-questions/react-interview-questions/)
@@ -61,4 +62,4 @@ This repository contains a comprehensive list of React.js interview questions ca
 Contributions are welcome! Please feel free to submit issues or pull requests to improve this repository.
 
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
