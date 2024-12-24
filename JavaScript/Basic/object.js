@@ -19,5 +19,37 @@ var user = {
 const alldata  = JSON.stringify(user)
 
 
-console.log(alldata);
-console.log(user);
+
+
+// console.log(alldata);
+// console.log(user);
+
+
+//  simple constructors 
+// function Person(name,location,age,color){
+//     this.name = name,
+//     this.location = location,
+//     this.age = age,
+//     this.color = color
+
+// }
+
+
+//speacial method 
+function Person(name,location,age,color){
+    this.name = name,
+    this.location = location,
+    this.age = age,
+    this.color = color
+
+}
+
+const rahul = new Person('rahul', 'hyd', 23,'red');
+
+console.log(rahul) // for calling whole object
+console.log(rahul.name)
+console.log(rahul.location)
+console.log(rahul.age)
+console.log(rahul.color
+    
+)
