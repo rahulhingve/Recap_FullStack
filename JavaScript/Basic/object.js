@@ -1,4 +1,6 @@
+// An object in JavaScript is a data structure used to store related data collections. It stores data as key-value pairs, where each key is a unique identifier for the associated value. Objects are dynamic, which means the properties can be added, modified, or deleted at runtime.
 
+// There are two primary ways to create an object in JavaScript: Object Literal and Object Constructor.
 //Objects in js  old and new methods
 
 var user = {
@@ -25,6 +27,13 @@ const alldata  = JSON.stringify(user)
 // console.log(user);
 
 
+// what is constructors ?
+
+// Object Constructor Functions
+// Sometimes we need to create many objects of the same type.
+// To create an object type we use an object constructor function.
+// It is considered good practice to name constructor functions with an upper-case first letter.
+
 //  simple constructors 
 // function Person(name,location,age,color){
 //     this.name = name,
@@ -35,7 +44,7 @@ const alldata  = JSON.stringify(user)
 // }
 
 
-//speacial method 
+//special method 
 function Person(name,location,age,color){
     this.name = name,
     this.location = location,
@@ -50,6 +59,11 @@ console.log(rahul) // for calling whole object
 console.log(rahul.name)
 console.log(rahul.location)
 console.log(rahul.age)
-console.log(rahul.color
-    
-)
+console.log(rahul.color)
+console.log(rahul.hasOwnProperty("username"))
+//i found a new method for calling the obj property
+console.log(rahul["name"])
+
+for (let key in rahul){
+    console.log(key+": "+rahul[key])
+}
