@@ -16,7 +16,7 @@ State Hooks like useState allows functional components to manage local state.
 ## 3. Ref Hooks (useRef())
 useRef provide access to DOM nodes or persist values without causing re-renders.
 
-## 4. Effect Hooks
+## 4. Effect Hooks (useEffect())
 The useEffect hook is used to perform side effects in your functional components, such as fetching data but it only runs when the component (or some of its props) changes and during the initial mount.
 
 ## 5. Performance Hooks ( useMemo(), useCallback() )
