@@ -22,12 +22,13 @@ The useEffect hook is used to perform side effects in your functional components
 ## 5. Performance Hooks ( useMemo(), useCallback() )
 Performance Hooks like useMemo and useCallback optimize rendering by memoizing values or functions.
 
-useMemo     : Returns a memoized value to avoid expensive calculations on every render.
-useMemo #2  : useMemo is a React hook that memoizes the result of a function. It is used to optimize performance by caching the result of a function and returning the cached result when the inputs to the function have not changed.
+### useMemo     : Returns a memoized value to avoid expensive calculations on every render.
+
+### useMemo #2  : useMemo is a React hook that memoizes the result of a function. It is used to optimize performance by caching the result of a function and returning the cached result when the inputs to the function have not changed.
 
 
-useCallback     : Returns a memoized version of a callback function.
-useCallback #2  : useCallback is a React hook that returns a memoized version of a callback function. It’s used to optimize performance by preventing unnecessary re-renders. Specifically, it helps avoid recreating functions when their dependencies haven’t changed, which can be useful when passing callbacks to child components that rely on referential equality to prevent re-rendering.
+### useCallback     : Returns a memoized version of a callback function.
+### useCallback #2  : useCallback is a React hook that returns a memoized version of a callback function. It’s used to optimize performance by preventing unnecessary re-renders. Specifically, it helps avoid recreating functions when their dependencies haven’t changed, which can be useful when passing callbacks to child components that rely on referential equality to prevent re-rendering.
 
 
 # 6. Resource Hooks (useFetch())
